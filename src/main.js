@@ -31,7 +31,6 @@ const router = new VueRouter({
     { path: '/projects', component: Projects },
     { path: '/blog', component: Blog },
     /*{ path: '/blog/:slug', component: () => import('@/components/BlogPost.vue'), name: 'blog-post' }, ???*/
-    /* */
 
     // Not found
     { path: '/*', component: NotFound }
