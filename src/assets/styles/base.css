@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+:root {
+  --title-font-family: Jetbrains Mono;
+  --main-font-family: Jetbrains Mono;
+  --monospace-font-family: sfmono-regular, consolas, liberation mono, menlo, monospace;
+
+  --background-color: #000000;
+  /*--background-image: url('../images/bg.jpg');*/
+  --background-image: url('https://0x0.st/XsNg.jpg');
+  --text-color: #ffffff;
+  --footer-color: #ffffff;
+  --link-color: #050506;
+  --code-color: #bd10e0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  background-image: var(--background-image);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: var(--main-font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--text-color);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--title-font-family);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 20px;
+  padding: 16px 0 4px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+span,
+li,
+ul {
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+a:hover {
+  border-bottom: none;
+}
+
+ul {
+  padding-left: 15px;
+  line-height: 30px;
+  margin: 0;
+}
+
+p {
+  line-height: 30px;
+}
+
+code {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 85%;
+  border-radius: 6px;
+  color: var(--code-color);
+}
+
+code::before,
+code::after {
+  content: '`';
+}
+
+pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  border-radius: 6px;
+  word-break: normal;
+  word-wrap: normal;
+  border: 1px solid #eaeaea;
+  margin: 24px 0;
+  white-space: pre;
+  -webkit-overflow-scrolling: touch;
+}
+
+code,
+pre {
+  font-family: var(--monospace-font-family);
+}
+
+b {
+  font-weight: 700;
+}
