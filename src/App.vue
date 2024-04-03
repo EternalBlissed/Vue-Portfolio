@@ -1,9 +1,11 @@
 <template>
-  <div id="app">
+  <div id="app" class="flex-container">
     <vue-navigation-bar :options="navbarOptions" />
 
     <transition name="fade" mode="out-in">
-      <router-view />
+      <div class="router-view-container">
+        <router-view />
+      </div>
     </transition>
 
     <div id="footer">
@@ -67,6 +69,27 @@ export default {
 
 <style>
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.router-view-container {
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+transition {
+  flex: 1;
+}
+
 .container {
   margin: 0px auto 0px auto;
   max-width: 664px;
@@ -128,6 +151,7 @@ export default {
 }
 
 #footer {
+  margin-top: auto;
   padding: 20px 20px;
   background-color: rgba(0, 0, 0, 0.5);
 }

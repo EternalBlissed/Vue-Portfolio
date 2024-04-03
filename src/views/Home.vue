@@ -45,7 +45,7 @@
       <ul>
         <li>
           <b>Email：</b>
-          <a href="mailto:3tnl-j@proton.me">3tnl@proton.me</a>
+          <a href="mailto:3tnl-j@proton.me">3tnl-j@proton.me</a>
         </li>
         <li>
           <b>Discord：</b>
