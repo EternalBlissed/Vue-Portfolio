@@ -118,10 +118,12 @@ transition {
 
 .vnb__menu-options__option a {
   font-size: 15px;
+  color: #fff;
 }
 
 .vnb__menu-options__option a:focus {
   outline: none;
+  color: #fff;
 }
 
 .vnb__popup__bottom__menu-options__option__link {
@@ -136,7 +138,6 @@ transition {
 .vnb__menu-options__option__link {
   cursor: pointer;
   font-weight: 500;
-  font-family: var(--main-font-family); /* Does nothing xd */
   color: #fff;
   transition: color 0.2s ease-in;
   display: flex;
