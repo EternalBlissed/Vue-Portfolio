@@ -118,10 +118,12 @@ transition {
 
 .vnb__menu-options__option a {
   font-size: 15px;
+  color: #000;
 }
 
 .vnb__menu-options__option a:focus {
   outline: none;
+  color: #000;
 }
 
 .vnb__popup__bottom__menu-options__option__link {
