@@ -16,7 +16,7 @@ import VueNavigationBar from 'vue-navigation-bar'
 Vue.component('vue-navigation-bar', VueNavigationBar)
 
 import axios from 'axios'
-Vue.prototype.axios = axios
+Vue.prototype.axios = axios 
 
 // NProgress
 import NProgress from 'nprogress'

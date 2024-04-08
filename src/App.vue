@@ -126,6 +126,7 @@ transition {
 
 .vnb__popup__bottom__menu-options__option__link {
   padding: 6px 24px;
+  color: #fff;
 }
 
 .vnb__popup__bottom__menu-options__option__link:focus {
