@@ -52,10 +52,10 @@
           <a href="https://discord.com">3tnl</a>
         </li>
       </ul>
-      <audio controls>
+      <!--<audio controls>
         <source src="../assets/audio/waves.flac" type="audio/flac">
         Your browser does not support the audio element.
-      </audio>
+      </audio>-->
     </div>
   </div>
 </template>
