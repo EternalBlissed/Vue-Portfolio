@@ -36,7 +36,6 @@ const skillsData = [
       items: [
         { name: "VSCode", badge: "https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" },
         { name: "NeoVim", badge: "https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white" },
-        { name: "Nano", badge: "https://img.shields.io/badge/nano-4A90E2?style=for-the-badge&logo=nano&logoColor=white" }
       ],
     },
     {

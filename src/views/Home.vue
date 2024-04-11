@@ -21,7 +21,7 @@
       I use <a href="https://archlinux.org/">Arch (btw)</a> with <a href="https://hyprland.com/">Hyprland</a> on my main work laptop and gaming PC, and <a href="https://voidlinux.org/">Void</a> + <a href="https://gentoo.org/">Gentoo</a> with i3 and sway on my secondary laptop.<br>
       I mainly write in <a href="https://www.typescriptlang.org/">Typescript</a> but also <a href="https://www.python.org/">Python</a>, <a href="https://www.rust-lang.org/">C</a>, and <a href="https://www.rust-lang.org/">Rust</a>.
     </p>
-    <h2>Tech Stack</h2>
+    <h2>Tech Overview/Stack</h2>
     <div v-for="skillCategory in skills" :key="skillCategory.category">
       <h3>{{ skillCategory.category }}</h3>
       <ul>
@@ -30,7 +30,7 @@
         </li>
       </ul>
     </div>
-    <h4>Please note I am not perfect in all areas of my tech stack, we're all still learning!</h4>
+    <!-- <h4>Please note I am not perfect in all areas of my tech stack, we're all still learning!</h4> -->
       <h2>My Public GPG Key</h2>
       <p>
         Below is my public GPG key. You can use it to encrypt messages to me, or verify that messages you receive from me are authentic. 
