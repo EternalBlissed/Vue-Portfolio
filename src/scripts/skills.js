@@ -36,15 +36,54 @@ const skillsData = [
       items: [
         { name: "VSCode", badge: "https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" },
         { name: "NeoVim", badge: "https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white" },
+        { name: "Nano", badge: "https://img.shields.io/badge/nano-4A90E2?style=for-the-badge&logo=nano&logoColor=white" }
       ],
     },
     {
-      category: "Workspace",
-      items: [
-        { name: "Dell Inspiron 16 Plus 7630", badge: "https://img.shields.io/badge/Dell-Inspiron%2016%20Plus%207630-007DB8?style=for-the-badge&logo=dell&logoColor=white" },
-        { name: "Dell XPS 9360", badge: "https://img.shields.io/badge/Dell-XPS%209360-007DB8?style=for-the-badge&logo=dell&logoColor=white" },
-      ],
-    }
+        category: "Frameworks, Libraries and Services",
+        items: [
+          { name: "Bun", badge: "https://img.shields.io/badge/Bun-%23000000.svg?style=for-the-badge&logo=bun&logoColor=white" },
+          { name: "Vue.js", badge: "https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08" },
+          { name: "Flask", badge: "https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" },
+          { name: "Next.js", badge: "https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" },
+          { name: "React", badge: "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" },
+          { name: "Sass", badge: "https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" },
+          { name: "Vercel", badge: "https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" },
+          { name: "Electron", badge: "https://img.shields.io/badge/Electron-2B2E3A?style=for-the-badge&logo=electron&logoColor=9FEAF9" },
+          { name: "Express.js", badge: "https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white" },
+          { name: "GitHub Pages", badge: "https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=GitHub%20Pages&logoColor=white" },
+          { name: "npm", badge: "https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" },
+          { name: "Node.js", badge: "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" },
+          { name: "NuGet", badge: "https://img.shields.io/badge/NuGet-004880?style=for-the-badge&logo=nuget&logoColor=white" },
+          { name: "ngrok", badge: "https://img.shields.io/badge/ngrok-140648?style=for-the-badge&logo=Ngrok&logoColor=white" },
+          { name: "Tailwind CSS", badge: "https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" },
+          { name: "Yarn", badge: "https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white" },
+          { name: "Docker", badge: "https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" },    
+          { name: "Selenium", badge: "https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white" },      
+        ],
+      },
+      {
+        category: "Databases",
+        items: [
+          { name: "SQLite", badge: "https://img.shields.io/badge/Sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" },
+          { name: "MySQL", badge: "https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" },
+          { name: "MongoDB", badge: "https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" }
+        ],
+      },
+      {
+        category: "Design Tools",
+        items: [
+          { name: "Adobe Photoshop", badge: "https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black" },
+          { name: "GIMP", badge: "https://img.shields.io/badge/gimp-5C5543?style=for-the-badge&logo=gimp&logoColor=white" }
+        ],
+      },
+      {
+        category: "Workspace",
+        items: [
+          { name: "Dell Inspiron 16 Plus 7630", badge: "https://img.shields.io/badge/Dell-Inspiron%2016%20Plus%207630-007DB8?style=for-the-badge&logo=dell&logoColor=white" },
+          { name: "Dell XPS 9360", badge: "https://img.shields.io/badge/Dell-XPS%209360-007DB8?style=for-the-badge&logo=dell&logoColor=white" },
+        ],
+      }
 ]
 
 export default skillsData;

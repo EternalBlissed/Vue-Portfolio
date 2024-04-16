@@ -98,8 +98,14 @@ a:visited {
   color: white; 
 }
 
+h4 {
+  font-size: 12px;
+  font-style: italic;
+  margin: 0;
+}
+
 .pronoun-text {
-  font-size: 12px; /* Adjust the font size as desired */
+  font-size: 12px; 
   margin-left: -12.5px;
 }
 
@@ -167,9 +173,4 @@ img {
   height: auto; 
 }
 
-h4 {
-  font-size: 12px;
-  font-style: italic;
-  margin: 0;
-}
 </style>

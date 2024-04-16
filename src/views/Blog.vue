@@ -2,7 +2,7 @@
   <div class="container">
     <p>
       Implementation of my old blog into this portfolio is WIP, For now you can find my blog
-      <a href="https://blog.3tnl.xyz" target="_blank" rel="noopener noreferrer">here (click me!)</a>
+      <a href="https://blog.3tnl.xyz">here (click me!)</a>
     </p>
   </div>
 </template>

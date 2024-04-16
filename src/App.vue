@@ -101,6 +101,10 @@ transition {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
+.vnb__popup {
+  background-color: #000;
+}
+
 .vnb__collapse-button img {
   width: 24px;
   height: 24px;
@@ -118,10 +122,12 @@ transition {
 
 .vnb__menu-options__option a {
   font-size: 15px;
+  color: #000;
 }
 
 .vnb__menu-options__option a:focus {
   outline: none;
+  text-color: #000;
 }
 
 .vnb__popup__bottom__menu-options__option__link {

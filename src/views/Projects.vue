@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1>Projects</h1>
-    <p>Projects I participated in and/or developed.</p>
+    <p>Projects I have participated in and/or developed.</p>
 
     <GitHubCard
       title="💚 Vue Portfolio"
@@ -12,27 +12,11 @@
     </GitHubCard>
 
     <GitHubCard
-      title="🖥️ Eternal's Terminal"
-      link="https://github.com/EternalBlissed/Eternals-Terminal"
-      :info="TerminalInfo"
-      :loading="loading">
-      <p>Terminal based portfolio, made using React, Archived</p>
-    </GitHubCard>
-
-    <GitHubCard
-      title="💻 Eternal's Desktop"
-      link="https://github.com/EternalBlissed/Eternals-Desktop"
-      :info="DesktopInfo"
-      :loading="loading">
-      <p>Void Linux styled portfolio, made using Next.js and Tailwind CSS, Archived</p>
-    </GitHubCard>
-
-    <GitHubCard
-      title="📖 Eternal's Blog"
-      link="https://github.com/EternalBlissed/eternals-blog"
+      title="📚 Eternal's Blog"
+      link="https://github.com/eternalblissed/vue-blog"
       :info="BlogInfo"
       :loading="loading">
-      <p>My Old Blog, Written in NextJs and MDX, Archived</p>
+      <p>My blog written in Vue.js 3</p>
     </GitHubCard>
 
     <GitHubCard
@@ -40,15 +24,23 @@
       link="https://github.com/eternalblissed/Rusty-Bot"
       :info="RustyInfo"
       :loading="loading">
-      <p>A Discord bot written in Rust, using serenity</p>
+      <p>A Discord bot written in Rust, using Serenity.</p>
+    </GitHubCard>
+
+    <GitHubCard
+      title="⚫ Dwm Installer"
+      link="https://github.com/EternalBlissed/dwm-installer"
+      :info="DWMInfo"
+      :loading="loading">
+      <p>An install</p>
     </GitHubCard>
 
     <GitHubCard
       title="💻 My dotfiles"
-      link="https://github.com/eternalblissed/arch-dots"
-      :info="dotfilesInfo"
+      link="https://github.com/eternalblissed/dothub"
+      :info="DotfilesInfo"
       :loading="loading">
-      <p>Configuration files for my Arch Hyprland Rice.</p>
+      <p>A repo containing all my dotfiles across all my devices</p>
     </GitHubCard>
   </div>
 </template>
@@ -75,11 +67,10 @@ export default {
   mounted() {
     this.fetchRepositoryInfo([
       { repo: 'eternalblissed/vue-portfolio', prop: 'PortfolioInfo' },
-      { repo: 'EternalBlissed/Eternals-Terminal', prop: 'TerminalInfo' },
-      { repo: 'EternalBlissed/Eternals-Desktop', prop: 'DesktopInfo' },
-      { repo: 'EternalBlissed/eternals-blog', prop: 'BlogInfo' },
+      { repo: 'eternalblissed/vue-blog', prop: 'BlogInfo' },
       { repo: 'eternalblissed/Rusty-Bot', prop: 'RustyInfo' },
-      { repo: 'eternalblissed/arch-dots', prop: 'dotfilesInfo' },
+      { repo: 'eternalblissed/dwm-installer', prop: 'DWMInfo' },
+      { repo: 'eternalblissed/dothub', prop: 'DotfilesInfo' },
     ])
   },
   methods: {
