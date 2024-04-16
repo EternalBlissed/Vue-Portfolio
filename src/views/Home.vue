@@ -9,7 +9,7 @@
         >Developer</a
       >
       <span>/</span>
-      <a id="blog" href="https://blog.eternalbliss.lol" target="_blank" rel="noopener noreferrer"
+      <a id="blog" href="https://blog.3tnl.xyz" target="_blank" rel="noopener noreferrer"
         >Blogger</a
       >
     </div>
