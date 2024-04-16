@@ -8,7 +8,7 @@
       link="https://github.com/eternalblissed/vue-portfolio"
       :info="PortfolioInfo"
       :loading="loading">
-      <p>My current portfolio, made using Vue.js 2</p>
+      <p>My current portfolio, made using Vue.js 2.</p>
     </GitHubCard>
 
     <GitHubCard
@@ -16,7 +16,7 @@
       link="https://github.com/eternalblissed/vue-blog"
       :info="BlogInfo"
       :loading="loading">
-      <p>My blog written in Vue.js 3</p>
+      <p>My blog written in Vue.js 3.</p>
     </GitHubCard>
 
     <GitHubCard
@@ -32,7 +32,7 @@
       link="https://github.com/EternalBlissed/dwm-installer"
       :info="DWMInfo"
       :loading="loading">
-      <p>An automated installer for deploy my dwm configuration.</p>
+      <p>An automated installer for deploying my dwm configuration.</p>
     </GitHubCard>
 
     <GitHubCard
@@ -40,7 +40,7 @@
       link="https://github.com/eternalblissed/dothub"
       :info="DotfilesInfo"
       :loading="loading">
-      <p>A repo containing all my dotfiles across all my devices</p>
+      <p>A repo containing all my dotfiles across all my devices.</p>
     </GitHubCard>
   </div>
 </template>

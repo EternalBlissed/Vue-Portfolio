@@ -102,11 +102,11 @@ transition {
 }
 
 .vnb__popup {
-  background-color: #000;
+  background-color: #494949;
 }
 
 .vnb__popup__bottom {
-  background: #000;
+  background: #494949;
 }
 
 .vnb__collapse-button img {
