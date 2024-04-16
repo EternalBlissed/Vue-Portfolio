@@ -32,7 +32,7 @@
       link="https://github.com/EternalBlissed/dwm-installer"
       :info="DWMInfo"
       :loading="loading">
-      <p>An install</p>
+      <p>An automated installer for deploy my dwm configuration.</p>
     </GitHubCard>
 
     <GitHubCard
