@@ -98,15 +98,15 @@ transition {
 
 #main-navbar {
   padding-right: 5px;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .vnb__popup {
-  background-color: #494949;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .vnb__popup__bottom {
-  background: #494949;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .vnb__collapse-button img {
@@ -154,30 +154,6 @@ transition {
 
 .vnb__menu-options__option__link:hover {
   color: #fff;
-  text-decoration: underline;
-}
-
-#footer {
-  margin-top: auto;
-  padding: 20px 20px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-#footer p {
-  color: var(--footer-color);
-  line-height: initial;
-}
-
-#footer-text {
-  margin: 0px auto;
-  max-width: 664px;
-  color: #ffffff;
-}
-
-#footer-text a,
-#busuanzi_value_site_pv,
-#footer-copyright {
-  color: #ffffff;
   text-decoration: underline;
 }
 

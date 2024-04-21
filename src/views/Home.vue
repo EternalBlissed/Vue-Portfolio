@@ -14,12 +14,19 @@
       >
     </div>
     <div class="article">
-    <h2>Who am I?</h2>
-    <p>
-      I'm Eternal, a high school student pursuing a career in machine learning.<br>
+    <h2>About Me</h2>
+    <!--<p>
+      Hi I'm Eternal, a high school student pursuing a career in programming.<br>
       I have a special place in my heart for FLOSS and Unix-based operating systems.<br>
-      I use <a href="https://archlinux.org/">Arch (btw)</a> with <a href="https://hyprland.com/">Hyprland</a> on my main work laptop and gaming PC, and <a href="https://voidlinux.org/">Void</a> + <a href="https://gentoo.org/">Gentoo</a> with i3 and sway on my secondary laptop.<br>
-      I mainly write in <a href="https://www.typescriptlang.org/">Typescript</a> but also <a href="https://www.python.org/">Python</a>, <a href="https://www.rust-lang.org/">C</a>, and <a href="https://www.rust-lang.org/">Rust</a>.
+      I use <a href="https://archlinux.org/">Arch (btw)</a> with <a href="https://hyprland.com/">Hyprland</a> on my main workstation, and a handful of other Unix based operating systems on other devices.<br>
+      I mainly write in <a href="https://www.typescriptlang.org/">JS/TS</a> but also <a href="https://www.python.org/">Python</a>, <a href="https://www.rust-lang.org/">C</a>, and <a href="https://www.rust-lang.org/">Rust</a>.
+    </p>-->
+    <p>
+      Hi I'm Eternal! I'm a self-taught developer and high school student.<br><br>
+
+      I work as a full stack developer and have experience in a variety of languages and frameworks such as Python, Flask, JavaScript, TypeScript, Vue.js, React, Node.js, Express, Rust, C, and more.<br><br>
+
+      You can view my current open source projects at <a href="http://3tnl.xyz/projects">3tnl.xyz/projects</a> and my blog at <a href="http://blog.3tnl.xyz">blog.3tnl.xyz</a>.
     </p>
     <h2>Tech Overview/Stack</h2>
     <div v-for="skillCategory in skills" :key="skillCategory.category">

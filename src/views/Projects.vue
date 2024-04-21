@@ -36,11 +36,11 @@
     </GitHubCard>
 
     <GitHubCard
-      title="💻 My dotfiles"
-      link="https://github.com/eternalblissed/dothub"
-      :info="DotfilesInfo"
+      title="❄️ NixOS Flake"
+      link="https://github.com/eternalblissed/nixos-config"
+      :info="NixOsInfo"
       :loading="loading">
-      <p>A repo containing all my dotfiles across all my devices.</p>
+      <p>My NixOS flake.</p>
     </GitHubCard>
   </div>
 </template>
@@ -70,7 +70,7 @@ export default {
       { repo: 'eternalblissed/vue-blog', prop: 'BlogInfo' },
       { repo: 'eternalblissed/Rusty-Bot', prop: 'RustyInfo' },
       { repo: 'eternalblissed/dwm-installer', prop: 'DWMInfo' },
-      { repo: 'eternalblissed/dothub', prop: 'DotfilesInfo' },
+      { repo: 'eternalblissed/nixos-config', prop: 'NixOsInfo' },
     ])
   },
   methods: {
