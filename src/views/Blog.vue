@@ -1,3 +1,7 @@
+<template>
+  <h1>Click <a href="https://blog.3tnl.xyz">here</a> if you're not being redirected</h1>
+</template>
+
 { /* Look there's far better management for redirecting users, I just don't know it yet ;) */}
 <script>
 export default {
