@@ -6,21 +6,13 @@
     </div>
     <div class="title-desc-container">
       <a id="github" href="https://github.com/eternalblissed" target="_blank" rel="noopener noreferrer"
-        >Developer</a
-      >
+        >Developer</a>
       <span>/</span>
       <a id="blog" href="https://blog.3tnl.xyz" target="_blank" rel="noopener noreferrer"
-        >Blogger</a
-      >
+        >Blogger</a>
     </div>
     <div class="article">
     <h2>About Me</h2>
-    <!--<p>
-      Hi I'm Eternal, a high school student pursuing a career in programming.<br>
-      I have a special place in my heart for FLOSS and Unix-based operating systems.<br>
-      I use <a href="https://archlinux.org/">Arch (btw)</a> with <a href="https://hyprland.com/">Hyprland</a> on my main workstation, and a handful of other Unix based operating systems on other devices.<br>
-      I mainly write in <a href="https://www.typescriptlang.org/">JS/TS</a> but also <a href="https://www.python.org/">Python</a>, <a href="https://www.rust-lang.org/">C</a>, and <a href="https://www.rust-lang.org/">Rust</a>.
-    </p>-->
     <p>
         Hi I'm <span class="hover-change" data-original="Eternal!" data-hover="Marc!">Eternal!</span> I'm a self-taught developer and high school student.<br><br>
 
@@ -37,7 +29,7 @@
         </li>
       </ul>
     </div>
-    <!-- <h4>Please note I am not perfect in all areas of my tech stack, we're all still learning!</h4> -->
+     <h4>Please note I am not perfect in all areas of my tech stack, we're all still learning!</h4>
       <h2>My Public GPG Key</h2>
       <p>
         Below is my public GPG key. You can use it to encrypt messages to me, or verify that messages you receive from me are authentic. 
@@ -173,6 +165,12 @@ a:visited {
 
 .hover-change {
   text-decoration: underline dotted; 
+}
+
+h4 {
+  font-size: 14px;
+  margin-top: 8px;
+  font-style: italic;
 }
 
 /* Shitty button implementation */
