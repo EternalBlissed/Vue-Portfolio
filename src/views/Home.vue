@@ -22,7 +22,7 @@
       I mainly write in <a href="https://www.typescriptlang.org/">JS/TS</a> but also <a href="https://www.python.org/">Python</a>, <a href="https://www.rust-lang.org/">C</a>, and <a href="https://www.rust-lang.org/">Rust</a>.
     </p>-->
     <p>
-      Hi I'm Eternal! I'm a self-taught developer and high school student.<br><br>
+        Hi I'm <span class="hover-change" data-original="Eternal!" data-hover="Marc!">Eternal!</span> I'm a self-taught developer and high school student.<br><br>
 
       I work as a full stack developer and have experience in a variety of languages and frameworks such as Python, Flask, JavaScript, TypeScript, Vue.js, React, Node.js, Express, Rust, C, and more.<br><br>
 
@@ -77,6 +77,22 @@ export default {
       skills: skillsData,
     };
   },
+  mounted() {
+    const hoverElements = document.querySelectorAll('.hover-change');
+
+    hoverElements.forEach(element => {
+      const originalText = element.dataset.original;
+      const hoverText = element.dataset.hover;
+
+      element.addEventListener('mouseover', function() {
+        this.textContent = hoverText;
+        });
+
+      element.addEventListener('mouseout', function() {
+        this.textContent = originalText;
+      });
+    })
+  }
 };
 
 </script>
@@ -103,12 +119,6 @@ a {
 
 a:visited {
   color: white; 
-}
-
-h4 {
-  font-size: 12px;
-  font-style: italic;
-  margin: 0;
 }
 
 .pronoun-text {
@@ -159,6 +169,10 @@ h4 {
 
 .title-desc-container #blog {
   color: #ffffff;
+}
+
+.hover-change {
+  text-decoration: underline dotted; 
 }
 
 /* Shitty button implementation */

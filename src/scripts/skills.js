@@ -26,7 +26,6 @@ const skillsData = [
         { name: "C#", badge: "https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" },
         { name: "Markdown", badge: "https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" },
         { name: "YAML", badge: "https://img.shields.io/badge/yaml-%23ffffff.svg?style=for-the-badge&logo=yaml&logoColor=151515" },
-        { name: "Windows Terminal", badge: "https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white" },
         { name: "PowerShell", badge: "https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white" },
         { name: "Nix", badge: "https://img.shields.io/badge/NIX-5277C3.svg?style=for-the-badge&logo=NixOS&logoColor=white" },
       ],
@@ -36,7 +35,7 @@ const skillsData = [
       items: [
         { name: "VSCode", badge: "https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" },
         { name: "NeoVim", badge: "https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white" },
-        { name: "Nano", badge: "https://img.shields.io/badge/nano-4A90E2?style=for-the-badge&logo=nano&logoColor=white" }
+        //{ name: "Nano", badge: "https://img.shields.io/badge/nano-4A90E2?style=for-the-badge&logo=nano&logoColor=white" }
       ],
     },
     {
