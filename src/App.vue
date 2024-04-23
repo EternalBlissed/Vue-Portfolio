@@ -98,7 +98,7 @@ transition {
 
 #main-navbar {
   padding-right: 5px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .vnb__popup {
