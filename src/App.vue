@@ -36,9 +36,11 @@ export default {
     return {
       navbarOptions: {
         elementId: 'main-navbar',
-        mobileBreakpoint: 992,
+        mobileBreakpoint: 1,
         ariaLabelMainNav: 'Main Navigation',
         isUsingVueRouter: true,
+        collapseButtonOpenColor: "#ffffff",
+        collapseButtonCloseColor: "#ffffff",
         menuOptionsRight: [
           {
             type: 'link',
