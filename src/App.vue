@@ -134,10 +134,12 @@ transition {
 
 .vnb__popup__bottom__menu-options__option__link {
   padding: 6px 24px;
+  color: #fff;
 }
 
 .vnb__popup__bottom__menu-options__option__link:focus {
   border-left: 2px solid #fff;
+  color: #fff;
 }
 
 .vnb__menu-options__option__link {
