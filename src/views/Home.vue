@@ -51,6 +51,26 @@
           <a href="https://discord.com">3tnl</a>
         </li>
       </ul>
+      <div class="button">
+        <a href="https://blog.3tnl.xyz" target="_blank" rel="noopener noreferrer">
+          <img src="./../assets/images/buttons/noword88.png" alt="button" />
+        </a>
+        <a href="https://www.vim.org/" target="_blank" rel="noopener noreferrer">
+          <img src="./../assets/images/buttons/neovim.gif" alt="button" />
+        </a>
+        <a href="https://www.nixos.org/" target="_blank" rel="noopener noreferrer">
+          <img src="./../assets/images/buttons/gnu-linux.gif" alt="button" />
+        </a>
+        <a href="https://www.adobe.com/" target="_blank" rel="noopener noreferrer">
+          <img src="./../assets/images/buttons/adobesvg.gif" alt="button" />
+        </a>
+        <a rel="noopener noreferrer">
+          <img src="./../assets/images/buttons/anybrow.gif" alt="button" />
+        </a>
+        <a href="https://9front.org/" rel="noopener noreferrer">
+          <img src="./../assets/images/buttons/abort.png" alt="button" />
+        </a>
+      </div>
       <!--<audio controls>
         <source src="../assets/audio/waves.flac" type="audio/flac">
         Your browser does not support the audio element.
@@ -117,6 +137,15 @@ a:visited {
   font-size: 12px; 
   margin-left: -12.5px;
 }
+
+.button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px; 
+  margin-top: 16px;
+}
+
 
 #avatar {
   width: 42px;
