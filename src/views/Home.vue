@@ -20,7 +20,7 @@
 
       You can view my current open source projects at <a href="http://3tnl.xyz/projects">3tnl.xyz/projects</a> and my blog at <a href="http://blog.3tnl.xyz">blog.3tnl.xyz</a>.
     </p>
-    <h2>Tech Overview/Stack</h2>
+    <h2>Tech Stack</h2>
     <div v-for="skillCategory in skills" :key="skillCategory.category">
       <h3>{{ skillCategory.category }}</h3>
       <ul>

@@ -16,7 +16,7 @@
       "gray-matter": "^4.0.3",
       "markdown-it": "13.0",
       "raw-loader": "^4.0.2",
-      "vue": "^2.6.10",
+      "vue": "^2.7.0",
       "vue-content-loader": "^0.2.3",
       "vue-navigation-bar": "^2.0.0",
       "vue-router": "^3.1.3"

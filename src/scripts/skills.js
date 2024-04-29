@@ -1,13 +1,12 @@
 const skillsData = [
     {
-      category: "Operating Systems",
+      category: "Operating Systems / Desktop Environments",
       items: [
         { name: "Arch Linux", badge: "https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" },
         { name: "Android", badge: "https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" },
-        { name: "Gentoo", badge: "https://img.shields.io/badge/Gentoo-54487A?style=for-the-badge&logo=gentoo&logoColor=white" },
         { name: "FreeBSD", badge: "https://img.shields.io/badge/freebsd-AB2B28?style=for-the-badge&logo=freebsd&logoColor=white" },
         { name: "NixOS", badge: "https://img.shields.io/badge/NixOS-5277C3?style=for-the-badge&logo=nixos&logoColor=white" },
-        { name: "OpenBSD", badge: "https://img.shields.io/badge/-OpenBSD-%23FCC771?style=for-the-badge&logo=openbsd&logoColor=black" },
+        { name: "Hyprland", badge: "https://img.shields.io/badge/Hyprland-1C1C1C?style=for-the-badge&logo=rainmeter&logoColor=white" },
       ],
     },
     {
@@ -23,7 +22,6 @@ const skillsData = [
         { name: "Java", badge: "https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor" },
         { name: "Rust", badge: "https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" },
         { name: "Shell Script", badge: "https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" },
-        { name: "C#", badge: "https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" },
         { name: "Markdown", badge: "https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" },
         { name: "YAML", badge: "https://img.shields.io/badge/yaml-%23ffffff.svg?style=for-the-badge&logo=yaml&logoColor=151515" },
         { name: "PowerShell", badge: "https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white" },
@@ -33,9 +31,8 @@ const skillsData = [
     {
       category: "Editors",
       items: [
-        { name: "VSCode", badge: "https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" },
+        { name: "VSCodium", badge: "https://img.shields.io/badge/VSCodium-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" },
         { name: "NeoVim", badge: "https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white" },
-        //{ name: "Nano", badge: "https://img.shields.io/badge/nano-4A90E2?style=for-the-badge&logo=nano&logoColor=white" }
       ],
     },
     {
@@ -57,23 +54,36 @@ const skillsData = [
           { name: "ngrok", badge: "https://img.shields.io/badge/ngrok-140648?style=for-the-badge&logo=Ngrok&logoColor=white" },
           { name: "Tailwind CSS", badge: "https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" },
           { name: "Yarn", badge: "https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white" },
-          { name: "Docker", badge: "https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" },    
-          { name: "Selenium", badge: "https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white" },      
+          { name: "Docker", badge: "https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" },
         ],
       },
       {
         category: "Databases",
         items: [
-          { name: "SQLite", badge: "https://img.shields.io/badge/Sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" },
-          { name: "MySQL", badge: "https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" },
+          { name: "MariaDB", badge: "https://img.shields.io/badge/MariaDB-003545?logo=mariadb&logoColor=fff&style=for-the-badge" },
           { name: "MongoDB", badge: "https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" }
+        ],
+      },
+      {
+        category: "Software",
+        items: [
+          { name: "Firefox", badge: "https://img.shields.io/badge/Firefox-FF7139?logo=firefox&logoColor=fff&style=for-the-badge" },
+          { name: "Discord", badge: "https://img.shields.io/badge/Vesktop-5865F2?logo=discord&logoColor=fff&style=for-the-badge" },
+          { name: "Obsidian", badge: "https://img.shields.io/badge/Obsidian-16161D?logo=obsidian&logoColor=fff&style=for-the-badge" },
+          { name: "Slack", badge: "https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=fff&style=for-the-badge" },
+          { name: "OBS", badge: "https://img.shields.io/badge/OBS-302E31?style=for-the-badge&logo=obs-studio&logoColor=white" },
+          { name: "Bitwarden", badge: "https://img.shields.io/badge/Bitwarden-175DDC?style=for-the-badge&logo=bitwarden&logoColor=white" },
+          { name: "mpv", badge: "https://img.shields.io/badge/mpv-8855D4?style=for-the-badge&logo=mpv&logoColor=white" },
+          { name: "zsh", badge: "https://img.shields.io/badge/Zsh-F15A24?logo=zsh&logoColor=fff&style=for-the-badge" },
         ],
       },
       {
         category: "Design Tools",
         items: [
           { name: "Adobe Photoshop", badge: "https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black" },
-          { name: "GIMP", badge: "https://img.shields.io/badge/gimp-5C5543?style=for-the-badge&logo=gimp&logoColor=white" }
+          { name: "GIMP", badge: "https://img.shields.io/badge/gimp-5C5543?style=for-the-badge&logo=gimp&logoColor=white" },
+          { name: "Aseprite", badge: "https://img.shields.io/badge/Aseprite-7D929E?style=for-the-badge&logo=aseprite&logoColor=white" },
+          { name: "Audacity", badge: "https://img.shields.io/badge/Audacity-0000CC?style=for-the-badge&logo=audacity&logoColor=white" },
         ],
       },
       {
