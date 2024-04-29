@@ -50,7 +50,6 @@ const skillsData = [
           { name: "GitHub Pages", badge: "https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=GitHub%20Pages&logoColor=white" },
           { name: "npm", badge: "https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" },
           { name: "Node.js", badge: "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" },
-          { name: "NuGet", badge: "https://img.shields.io/badge/NuGet-004880?style=for-the-badge&logo=nuget&logoColor=white" },
           { name: "ngrok", badge: "https://img.shields.io/badge/ngrok-140648?style=for-the-badge&logo=Ngrok&logoColor=white" },
           { name: "Tailwind CSS", badge: "https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" },
           { name: "Yarn", badge: "https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white" },
