@@ -16,7 +16,7 @@
       link="https://github.com/eternalblissed/vue-blog"
       :info="BlogInfo"
       :loading="loading">
-      <p>My blog written in Vue.js 3.</p>
+      <p>My blog written in Vue.js 2.</p>
     </GitHubCard>
 
     <GitHubCard
@@ -28,6 +28,30 @@
     </GitHubCard>
 
     <GitHubCard
+      title="👾 Nix Emulation Station"
+      link="https://github.com/eternalblissed/emulation-station-nix"
+      :info="NixESInfo"
+      :loading="loading">
+      <p>A Nix Dev-Shell Flake for all your emulation needs.</p>
+    </GitHubCard>
+
+    <GitHubCard
+      title="❄️ NixOS Flake"
+      link="https://github.com/eternalblissed/nixos-config"
+      :info="NixOSInfo"
+      :loading="loading">
+      <p>My NixOS flake.</p>
+    </GitHubCard>
+
+    <GitHubCard
+      title="📝 Nixvim Config"
+      link="https://github.com/eternalblissed/nixvim"
+      :info="NixvimInfo"
+      :loading="laoding">
+      <p>My Nixvim configuration packaged as a flake.</p>
+    </GitHubCard>
+
+    <GitHubCard
       title="⚫ Dwm Installer"
       link="https://github.com/EternalBlissed/dwm-installer"
       :info="DWMInfo"
@@ -35,13 +59,6 @@
       <p>An automated installer for deploying my dwm configuration.</p>
     </GitHubCard>
 
-    <GitHubCard
-      title="❄️ NixOS Flake"
-      link="https://github.com/eternalblissed/nixos-config"
-      :info="NixOsInfo"
-      :loading="loading">
-      <p>My NixOS flake.</p>
-    </GitHubCard>
   </div>
 </template>
 
@@ -57,11 +74,12 @@ export default {
     return {
       loading: true,
       PortfolioInfo: {},
-      TerminalInfo: {},
-      DesktopInfo: {},
       BlogInfo: {},
       RustyInfo: {},
-      dotfilesInfo: {},
+      NixESInfo: {},
+      NixOSInfo: {},
+      NixvimInfo: {},
+      DWMInfo: {},
     }
   },
   mounted() {

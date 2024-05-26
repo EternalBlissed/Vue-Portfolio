@@ -16,7 +16,7 @@
     <p>
         Hi I'm <span class="hover-change" data-original="Eternal!" data-hover="Marc!">Eternal!</span> I'm a self-taught developer and high school student.<br><br>
 
-      I work as a full stack developer and have experience in a variety of languages and frameworks such as Python, Flask, JavaScript, TypeScript, Vue.js, React, Node.js, Express, Rust, C, and more.<br><br>
+      I work as a full stack developer and have experience in a variety of languages and frameworks such as Rust, Vuejs and Nix.<br><br>
 
       You can view my current open source projects at <a href="http://3tnl.xyz/projects">3tnl.xyz/projects</a> and my blog at <a href="http://blog.3tnl.xyz">blog.3tnl.xyz</a>.
     </p>
